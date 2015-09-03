@@ -46,13 +46,14 @@ body {
 	margin-bottom: 50px;
 	@include box-shadow;
 	border: none;
+  border-bottom:2px solid red;
 	.navbar-brand {
 		text-transform: uppercase;
 		letter-spacing: -1px;
 		font-weight: bold;
 		font-size: 25px;
 		a {
-			color: $red;
+			color: #C17D08;
 		}
 	}
 }
@@ -75,6 +76,7 @@ body {
     transition: all .3s ease-out;
 		&:hover {
 			transform: scale(1.075);
+      border:1px solid red;
 		}
 	}
 	h2 {
